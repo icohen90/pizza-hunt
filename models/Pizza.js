@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const {Schema, model} = require('mongoose');
 
 const PizzaSchema = new Schema({
   pizzaName: {
@@ -16,7 +16,7 @@ const PizzaSchema = new Schema({
     default: 'Large'
   },
   toppings: []
-});
+})
 
 const Pizza = model('Pizza', PizzaSchema);
 
