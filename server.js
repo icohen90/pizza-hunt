@@ -10,7 +10,11 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
+<<<<<<< HEAD
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt',{
+=======
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
+>>>>>>> feature/comment-model
   //useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
